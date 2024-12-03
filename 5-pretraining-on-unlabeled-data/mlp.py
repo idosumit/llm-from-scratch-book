@@ -35,7 +35,7 @@ print("\nOut:\n", out)
 print("\nModel:\n", model)
 
 num_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
-print("\nTotal trainable model parameters:\n", num_params)
+print("\nTotal trainable parameters in the original MLP code (this is not the parameters count for if this module has been imported somewhere else):\n", num_params)
 
 print(f"\nFirst linear layer:\n{model.layers[0].weight}\nShape of this layer: {model.layers[0].weight.shape}")
 
