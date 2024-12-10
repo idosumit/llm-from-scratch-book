@@ -3,4 +3,7 @@ torchvision
 torchaudio
 numpy
 matplotlib
-notebook 
+notebook
+tiktoken
+tensorflow>=2.15.0
+tqdm>=4.66
